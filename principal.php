@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>ANTICOMERCIALES.COM</title>
+    
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            background-color: #3B271A;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body bgcolor="#3B271A">
+    <div class="container">
+        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+                codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" 
+                width="766" 
+                height="750" 
+                id="principal">
+            <param name="movie" value="principal.swf"> 
+            <param name="quality" value="high"> 
+            <param name="bgcolor" value="#3B271A"> 
+            <embed src="principal.swf" 
+                   quality="high" 
+                   bgcolor="#3B271A" 
+                   width="766" 
+                   height="750" 
+                   name="principal" 
+                   type="application/x-shockwave-flash" 
+                   pluginspage="http://www.macromedia.com/go/getflashplayer">
+            </embed>
+        </object>
+    </div>
+</body>
+</html>
